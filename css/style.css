@@ -195,6 +195,7 @@ body {
   padding: 128px 0;
   background-color: #f5f2f0;
 }
+
 .bene_head h2 {
   font-size: 48px;
   font-weight: bold;
@@ -202,7 +203,6 @@ body {
   text-transform: uppercase;
   padding-bottom: 64px;
   margin-bottom: 0;
-  padding-right: 100px;
 }
 .bene_head h6 {
   font-size: 16px;
@@ -212,4 +212,296 @@ body {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+.bene_item {
+  position: relative;
+}
+.bene_item img {
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  width: 94%;
+  height: 187px;
+  transition: 0.5s;
+  background: linear-gradient(0deg, rgba(6, 6, 6, 0), rgba(0, 0, 0, 0.202));
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  overflow: hidden;
+}
+.overlay h5 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 99px 32px 32px 32px;
+  margin-bottom: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.overlay p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.78);
+  transform: scale(0);
+  padding: 0px 32px 32px 32px;
+  margin-bottom: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+}
+.bene_item:hover .overlay {
+  height: 309px;
+}
+.bene_item:hover .overlay h5 {
+  padding-top: 133px;
+  padding-bottom: 16px;
+}
+.bene_item:hover .overlay p {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
 /* benefit part end */
+
+/* sermons part start */
+#sermon {
+  padding: 128px 0;
+}
+.ser_head h6 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #161722;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.ser_head h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 64px;
+  margin-bottom: 0;
+}
+.ser_body {
+  background-color: #fff5eb;
+}
+.ser_body_head .up_event {
+  margin-top: -22px;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(-66deg, #a54e2b, #dc9853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ser_img {
+  padding: 0;
+}
+.date {
+  padding-top: 32px;
+  text-align: end;
+}
+.date h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #161722;
+  margin-bottom: 0;
+}
+.date label {
+  font-size: 16px;
+  font-weight: normal;
+  color: #161722;
+  text-transform: uppercase;
+}
+.ser_body_head h2 {
+  font-size: 24px;
+  padding-right: 30px;
+  padding-bottom: 16px;
+  font-weight: bold;
+  color: #161722;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.ser_body_head p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #161722;
+  padding-bottom: 32px;
+}
+
+.item_icon img {
+  width: 20px;
+}
+
+.item_txt p {
+  width: 194px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #161722;
+  padding-bottom: 16px;
+  padding-right: 50px;
+  margin-bottom: 0;
+}
+.item_txt2 p {
+  padding-right: 80px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ser_body_head a {
+  margin-top: 32px;
+  padding: 24px 64px;
+  background-color: #161722;
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 12px;
+  color: #ffd2a4;
+  text-transform: uppercase;
+}
+.ser_bottom {
+  padding-top: 48px;
+}
+.ser_bottom a {
+  font-size: 24px;
+  font-weight: normal;
+  color: #161722;
+}
+
+/* sermons part end */
+
+/* mosque part start */
+#mosque {
+  background: url(../img/mosque.jpg) no-repeat center / cover;
+  padding: 128px 0;
+}
+.mos_main {
+  background-color: #fff;
+  padding: 72px 48px;
+  border-bottom: 16px solid #ffd2a4;
+}
+.mos_main h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #161722;
+  text-transform: uppercase;
+}
+.mos_main p {
+  padding: 16px 60px 16px 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #161722;
+}
+.mos_main a {
+  padding: 24px 64px;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #ffd2a4;
+  color: #161722;
+  border-radius: 12px;
+}
+/* mosque part end */
+
+/* blog part start */
+#blog {
+  padding: 128px 0;
+}
+.blog_head h6 {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 16px;
+}
+.blog_head h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 64px;
+}
+.blog_item {
+  padding: 48px 32px;
+  position: relative;
+  background-color: #fff5eb;
+}
+.blog_item .up_event {
+  margin-bottom: 0;
+  padding-bottom: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(-66deg, #a54e2b, #dc9853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blog_item h5 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+.blog_item p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(22, 23, 34, 0.784);
+  padding-bottom: 48px;
+  margin-bottom: 0;
+}
+.blog_item .author h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #161722;
+  padding-bottom: 4px;
+  margin-bottom: 0;
+}
+.blog_item .author p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #161722;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.blog_item::after {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #ffd0a0;
+  opacity: 0;
+  transition: 0.5s;
+}
+.blog_item:hover.blog_item::after {
+  opacity: 1;
+}
+/* blog part end */
+
+/* footer part start */
+#footer {
+  padding: 64px 0;
+  background-color: #161722;
+}
+/* footer part end */
