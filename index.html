@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- nav part start -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar sticky-top navbar-expand-lg bg_body">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="img/Logo.png" class="img-fluid" alt=""
@@ -37,7 +37,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse nav_menu"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -54,6 +57,10 @@
               <a class="nav-link active" aria-current="page" href="#">Blog</a>
             </li>
           </ul>
+
+          <div class="con_us">
+            <a href="#">Contact us</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -66,7 +73,7 @@
         <div class="col-lg-5 banner_main">
           <h6>Welcome to our CHURCH</h6>
           <h1>Become a part of our community</h1>
-          <a class="col-lg-5" href="#">Learn more</a>
+          <a href="#">Learn more</a>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
           </p>
@@ -139,7 +146,7 @@
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <a class="col-lg-3 mx-auto" href="#">read more</a>
+          <a href="#">read more</a>
         </div>
 
         <div class="col-lg-10 mx-auto">
@@ -258,7 +265,7 @@
                   <p>No 233 Main St. New York, United States</p>
                 </div>
               </div>
-              <a href="#" class="col-lg-6 text-center">register</a>
+              <a href="#">register</a>
             </div>
           </div>
           <div class="col-lg-8 ser_img">
@@ -284,7 +291,7 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
               </p>
-              <a class="col-lg-5 text-center" href="#">Visit</a>
+              <a href="#">Visit</a>
             </div>
             <div class="col-lg-4">
               <img src="img/Quoteicon.png" class="img-fluid" alt="" />
@@ -376,7 +383,7 @@
     <section id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 footer_txt">
             <div class="footer_logo">
               <a href="index.html"
                 ><img src="img/footer_logo.png" alt="footer_logo"
@@ -387,7 +394,7 @@
             <p>4517 Washington Ave.</p>
             <p>finsweet@example.com</p>
           </div>
-          <div class="col-lg-1">
+          <div class="col-lg-1 footer_link">
             <h6>Quicklinks</h6>
             <ul>
               <li><a href="#">About us</a></li>
@@ -396,7 +403,7 @@
               <li><a href="#">Blog</a></li>
             </ul>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2 footer_social">
             <h6>Connect</h6>
 
             <a href="#"
@@ -409,13 +416,15 @@
               ><i class="fa-brands fa-linkedin" style="color: #ffd2a4"></i
             ></a>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 footer_subscribe">
             <h2>Subscribe to get Latest Updates and News</h2>
             <div class="search">
-              <input type="text" placeholder="Yourmail@gmail.com" />
-              <div class="btn">
-                <a href="#">Subscribe</a>
-              </div>
+              <form action="">
+                <input type="text" placeholder="Yourmail@gmail.com" />
+                <div class="btn">
+                  <button>Subscribe</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
